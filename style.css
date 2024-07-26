@@ -11,16 +11,24 @@ header {
     color:#f9faf8;
     display:flex;
     justify-content: space-between;
+    
 
 }
 
-.header-logo {
+.header-left {
     font-size: 24px;
+    margin-left: 50px;
 }
 
 .header-link {
     display:flex;
     font-size:18px;
     color:#e5e7eb;
+    margin-right:50px;
     
+}
+
+.header-link div {
+    display:flex;
+    margin: 0 5px;
 }
