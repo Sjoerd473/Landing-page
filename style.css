@@ -32,3 +32,31 @@ header {
     display:flex;
     margin: 0 5px;
 }
+
+.first-block {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1f2937 ;
+    color: #f9faf8;
+}
+
+.first-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-container h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.first-container p {
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+.first-container button {
+    background-color: #3882f6;
+}
