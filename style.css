@@ -180,3 +180,12 @@ li p {
     font-weight: bold;
     font-size: 24px;
 }
+
+footer {
+    display:flex;
+    justify-content: center;
+    background-color:#1f2937;
+    color:#f9faf8;
+    padding: 20px 0 20px 0;
+}
+
