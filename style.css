@@ -146,3 +146,37 @@ li p {
     width:150px;
     text-align: center;
 }
+
+.third-block {
+    display:flex;
+    flex-direction: column;
+    height:500px;
+    justify-content: center;
+    background-color: #e5e7eb;
+    align-items: center;
+
+}
+
+.third-block-content {
+    display:flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    width:850px;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-block-quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.third-block-source {
+    display:flex;
+    align-self:flex-end;
+    padding-top:5px;
+    font-weight: bold;
+    font-size: 24px;
+}
