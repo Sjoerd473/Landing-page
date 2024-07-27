@@ -97,3 +97,52 @@ header {
     height: 30px;
     font-size: large;
 }
+
+.second-block {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:500px;
+    
+}
+
+.second-block-header {
+    padding: 25px 0;
+    font-size: 36px;
+    font-weight: 1000;
+    color:#1f2937;
+}
+.second-block-content {
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: center;
+}
+
+.second-block-images {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    width: 100%;
+    gap:20px;
+}
+
+.second-block-images li {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+li div {
+    display:flex;
+    border: 2px solid #3882f6;
+    width:150px;
+    height:150px;
+    border-radius: 10px;
+    align-self: center;
+}
+
+li p {
+    width:150px;
+    text-align: center;
+}
