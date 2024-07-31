@@ -139,7 +139,7 @@ header {
 
 li div {
     display:flex;
-    border: 2px solid #3882f6;
+    border: 3px solid #3882f6;
     width:150px;
     height:150px;
     border-radius: 10px;
@@ -201,3 +201,35 @@ footer {
     padding: 20px 0 20px 0;
 }
 
+.fourth-block {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:500px;
+    padding: 5rem 8rem 5rem 8rem;
+}
+
+.fourth-block-content {
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    max-width: 900px;
+    height:125px;
+    background-color:#3882f6;
+    color:#e5e7eb;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0 5rem 0 5rem;
+    gap:2rem;    
+}
+
+.fourth-block-content button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    width:100px;
+    color:#f9faf8;
+    height: 30px;
+    font-size: large;
+    border: 2px solid #f9faf8;
+}
